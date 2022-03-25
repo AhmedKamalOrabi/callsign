@@ -28,8 +28,8 @@ importers:
 
   apps/next:
     specifiers:
-      '@callsign/eslint-config': workspace:*
-      '@callsign/ts-config': workspace:*
+      '@template/eslint-config': workspace:*
+      '@template/ts-config': workspace:*
       '@types/node': ^16.11.26
       '@types/react': ^17.0.41
       autoprefixer: ^10.4.4
@@ -47,8 +47,8 @@ importers:
       react-dom: 17.0.2_react@17.0.2
       sharp: 0.30.3
     devDependencies:
-      '@callsign/eslint-config': link:../../packages/eslint-config
-      '@callsign/ts-config': link:../../packages/ts-config
+      '@template/eslint-config': link:../../packages/eslint-config
+      '@template/ts-config': link:../../packages/ts-config
       '@types/node': 16.11.26
       '@types/react': 17.0.41
       autoprefixer: 10.4.4_postcss@8.4.12
@@ -57,9 +57,9 @@ importers:
 
   apps/vite:
     specifiers:
-      '@callsign/eslint-config': workspace:*
-      '@callsign/ts-config': workspace:*
-      '@callsign/ui': workspace:*
+      '@template/eslint-config': workspace:*
+      '@template/ts-config': workspace:*
+      '@template/ui': workspace:*
       '@formatjs/cli': ^4.8.2
       '@formatjs/intl-localematcher': ^0.2.24
       '@headlessui/react': ^1.5.0
@@ -90,7 +90,7 @@ importers:
       vitest: ^0.7.7
       web-vitals: ^2.1.4
     dependencies:
-      '@callsign/ui': link:../../packages/ui
+      '@template/ui': link:../../packages/ui
       '@formatjs/intl-localematcher': 0.2.24
       '@headlessui/react': 1.5.0_react-dom@17.0.2+react@17.0.2
       '@heroicons/react': 1.0.6_react@17.0.2
@@ -103,8 +103,8 @@ importers:
       react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
       web-vitals: 2.1.4
     devDependencies:
-      '@callsign/eslint-config': link:../../packages/eslint-config
-      '@callsign/ts-config': link:../../packages/ts-config
+      '@template/eslint-config': link:../../packages/eslint-config
+      '@template/ts-config': link:../../packages/ts-config
       '@formatjs/cli': 4.8.2
       '@testing-library/dom': 8.11.3
       '@testing-library/react': 12.1.4_react-dom@17.0.2+react@17.0.2
@@ -157,14 +157,14 @@ importers:
 
   packages/ui:
     specifiers:
-      '@callsign/eslint-config': 1.0.0
-      '@callsign/ts-config': 1.0.0
+      '@template/eslint-config': 1.0.0
+      '@template/ts-config': 1.0.0
       '@types/react': ^17.0.37
       '@types/react-dom': ^17.0.11
       typescript: ^4.5.3
     devDependencies:
-      '@callsign/eslint-config': link:../eslint-config
-      '@callsign/ts-config': link:../ts-config
+      '@template/eslint-config': link:../eslint-config
+      '@template/ts-config': link:../ts-config
       '@types/react': 17.0.41
       '@types/react-dom': 17.0.14
       typescript: 4.6.2

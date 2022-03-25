@@ -11,9 +11,9 @@ export default function Frame() {
 
   return (
     <>
-      <Helmet titleTemplate="callsign | %s" defaultTitle="callsign">
+      <Helmet titleTemplate="template | %s" defaultTitle="template">
         <html lang={lang} />
-        <meta name="description" content="callsign" />
+        <meta name="description" content="template" />
         <meta
           name="theme-color"
           media="(prefers-color-scheme: light)"

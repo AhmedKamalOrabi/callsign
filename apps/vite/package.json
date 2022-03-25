@@ -1,5 +1,5 @@
 {
-  "name": "@callsign/vite",
+  "name": "@template/vite",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -28,12 +28,12 @@
     "react-intl": "^5.24.7",
     "react-router-dom": "^6.2.2",
     "web-vitals": "^2.1.4",
-    "@callsign/ui": "workspace:*"
+    "@template/ui": "workspace:*"
   },
   "devDependencies": {
     "@formatjs/cli": "^4.8.2",
-    "@callsign/eslint-config": "workspace:*",
-    "@callsign/ts-config": "workspace:*",
+    "@template/eslint-config": "workspace:*",
+    "@template/ts-config": "workspace:*",
     "@testing-library/dom": "^8.11.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",

@@ -1,7 +1,7 @@
 {
   "components.fallback.headline": "Unexpected Error",
   "features.template.components.welcome.description": "Get started by editing the {file} file!",
-  "features.template.components.welcome.headline": "Callsign portal",
+  "features.template.components.welcome.headline": "template portal",
   "routes.landing.title": "Welcome",
   "routes.notFound.headline": "Not Found",
   "routes.notFound.title": "Not Found"

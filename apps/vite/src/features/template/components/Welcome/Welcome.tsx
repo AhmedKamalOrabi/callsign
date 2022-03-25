@@ -1,4 +1,4 @@
-import { Button } from '@callsign/ui';
+import { Button } from '@template/ui';
 
 export default function Welcome() {
   return (

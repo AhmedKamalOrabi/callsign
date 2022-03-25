@@ -1,11 +1,11 @@
 {
-  "name": "callsign",
-  "description": "Monorepo for Callsign portal",
+  "name": "template",
+  "description": "Monorepo for template portal",
   "version": "3.1.1",
   "license": "MIT",
   "author": "Ahmed Ragab <ahmed.ragab037@gmail.com>",
-  "repository": "https://github.com/AhmedKamalOrabi/callsign",
-  "bugs": "https://github.com/AhmedKamalOrabi/callsign/issues",
+  "repository": "https://github.com/AhmedKamalOrabi/template",
+  "bugs": "https://github.com/AhmedKamalOrabi/template/issues",
   "private": true,
   "engines": {
     "node": ">=16.14.0"

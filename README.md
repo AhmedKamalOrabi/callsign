@@ -1,4 +1,4 @@
-# Callsign portal
+# template portal
 
 This monorepo template allows you to start immediately with a [React](https://reactjs.org) ([TypeScript](https://www.typescriptlang.org)) single-page application, but it can also be used for any other type of web app.
 

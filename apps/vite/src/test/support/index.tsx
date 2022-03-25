@@ -1,4 +1,6 @@
-import { render, type RenderOptions } from '@testing-library/react';
+import { render } from '@testing-library/react';
+
+import type { RenderOptions } from '@testing-library/react';
 
 import TestProvider from '../providers/TestProvider';
 

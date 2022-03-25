@@ -1,5 +1,5 @@
 {
-  "extends": "@callsign/ts-config/react.json",
+  "extends": "@template/ts-config/react.json",
   "include": ["."],
   "exclude": ["dist", "build", "node_modules"]
 }

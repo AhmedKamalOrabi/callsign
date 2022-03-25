@@ -1,5 +1,5 @@
 {
-  "name": "@callsign/ui",
+  "name": "@template/ui",
   "version": "1.0.0",
   "main": "./index.tsx",
   "types": "./index.tsx",
@@ -7,8 +7,8 @@
   "devDependencies": {
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "@callsign/eslint-config": "1.0.0",
-    "@callsign/ts-config": "1.0.0",
+    "@template/eslint-config": "1.0.0",
+    "@template/ts-config": "1.0.0",
     "typescript": "^4.5.3"
   }
 }
