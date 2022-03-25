@@ -7,6 +7,6 @@ import Welcome from './Welcome';
 it('should render welcome', () => {
   mount(<Welcome />);
 
-  expect(screen.getByRole('heading', { name: 'Callsign portal' })).toBeDefined();
-  expect(screen.getByText('Get started', { exact: false })).toBeDefined();
+  expect(screen.getByText('Hello ya Ragab')).toBeDefined();
+  expect(screen.getByRole('button', { name: 'Boop' })).toBeDefined();
 });
