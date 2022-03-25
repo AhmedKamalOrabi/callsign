@@ -1,0 +1,3 @@
+{
+  "extends": "@callsign/eslint-config/next"
+}

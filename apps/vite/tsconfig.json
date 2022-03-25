@@ -1,0 +1,10 @@
+{
+  "extends": "@callsign/ts-config/react",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["vite/client"]
+  }
+}
