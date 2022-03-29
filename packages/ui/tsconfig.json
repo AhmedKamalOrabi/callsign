@@ -1,5 +1,7 @@
 {
-  "extends": "@template/ts-config/react.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
+  "extends": "@callsign/ts-config/react.json",
+  "include": ["./src"],
+  "exclude": ["dist", "build", "node_modules"],
+  "baseUrl": "./src",
+  "types": ["vite/client", "cypress", "@testing-library/cypress"]
 }

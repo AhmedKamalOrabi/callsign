@@ -1,14 +1,34 @@
 {
-  "name": "@template/ui",
+  "name": "@callsign/ui",
   "version": "1.0.0",
-  "main": "./index.tsx",
-  "types": "./index.tsx",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
   "license": "MIT",
+  "scripts": {
+    "test:open": "cypress open-ct",
+    "test:clean": "rimraf .nyc_output coverage",
+    "test:coverage": "nyc report --reporter=text --check-coverage --branches 65 --lines 80"
+  },
   "devDependencies": {
+    "@cypress/code-coverage": "3.9.12",
+    "@cypress/react": "^5.12.4",
+    "@cypress/vite-dev-server": "2.2.2",
+    "@callsign/eslint-config": "1.0.0",
+    "@callsign/ts-config": "1.0.0",
+    "@testing-library/cypress": "8.0.2",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
-    "@template/eslint-config": "1.0.0",
-    "@template/ts-config": "1.0.0",
-    "typescript": "^4.5.3"
+    "@types/sinon": "^10.0.11",
+    "@types/styled-components": "^5.1.24",
+    "@vitejs/plugin-react": "1.2.0",
+    "cypress": "^9.5.2",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.5.3",
+    "vite": "2.7.13",
+    "vite-plugin-istanbul": "2.4.0"
+  },
+  "dependencies": {
+    "react-icons": "^4.3.1",
+    "sinon": "^13.0.1"
   }
 }

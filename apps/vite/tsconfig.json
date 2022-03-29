@@ -1,5 +1,5 @@
 {
-  "extends": "@template/ts-config/react",
+  "extends": "@callsign/ts-config/react",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {

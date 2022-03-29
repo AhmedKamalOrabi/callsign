@@ -4,7 +4,6 @@ import { initMonitoring } from '@/utils/monitoring';
 import { reportWebVitals } from '@/utils/web-vitals';
 
 import App from './App';
-import './index.css';
 
 render(<App />, document.querySelector('#app'));
 

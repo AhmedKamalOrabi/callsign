@@ -1,8 +1,9 @@
 {
   "components.fallback.headline": "Unexpected Error",
-  "features.template.components.welcome.description": "Get started by editing the {file} file!",
-  "features.template.components.welcome.headline": "template portal",
+  "features.callsign.components.welcome.description": "Get started by editing the {file} file!",
+  "features.callsign.components.welcome.headline": "callsign portal",
   "routes.landing.title": "Welcome",
   "routes.notFound.headline": "Not Found",
-  "routes.notFound.title": "Not Found"
+  "routes.notFound.title": "Not Found",
+  "features.user.userDetail.userInfo.title": "user details"
 }

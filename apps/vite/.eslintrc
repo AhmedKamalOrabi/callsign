@@ -1,5 +1,5 @@
 {
-  "extends": "@template/eslint-config/react",
+  "extends": "@callsign/eslint-config/react",
   "rules": {
     "import/no-restricted-paths": [
       "error",

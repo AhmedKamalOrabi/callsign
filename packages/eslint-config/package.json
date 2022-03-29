@@ -1,5 +1,5 @@
 {
-  "name": "@template/eslint-config",
+  "name": "@callsign/eslint-config",
   "version": "1.0.0",
   "private": true,
   "dependencies": {

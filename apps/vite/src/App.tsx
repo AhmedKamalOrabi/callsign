@@ -4,6 +4,8 @@ import IntlProvider from '@/contexts/intl';
 import StoreProvider from '@/contexts/store';
 import Routes from '@/routes';
 
+import './App.css';
+
 export default function App() {
   return (
     <StoreProvider>
