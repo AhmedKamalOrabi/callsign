@@ -16,4 +16,4 @@ type AccessibilityProps = {
   role?: string;
 };
 
-export { BaseProps, TagProps, AccessibilityProps };
+export type { BaseProps, TagProps, AccessibilityProps };
