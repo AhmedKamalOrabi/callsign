@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from 'axios';
 
-const baseApiUrl = 'http://jsonplaceholder.typicode.com';
+const baseApiUrl = 'https://jsonplaceholder.typicode.com';
 
 const getFullApiUrl = (path: string): string => {
   return `${baseApiUrl}${path}`;
