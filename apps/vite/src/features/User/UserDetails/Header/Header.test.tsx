@@ -19,7 +19,7 @@ it('should display Header', () => {
 
   mount(<Header name={user.name} job={user.job} imageUrl={user.imageUrl} />);
 
-  for (const key of Object.keys(user)) {
-    expect(screen.getByText(user[key as keyof User])).toBeDefined();
-  }
+  expect(screen.getByText(user.name)).toBeDefined();
+  expect(screen.getByText(user.job)).toBeDefined();
+  expect(screen.getByRole('img', { name: user.name })).toBeDefined();
 });

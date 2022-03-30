@@ -1,4 +1,3 @@
-
 import type { IuserDetail } from '@/types/IuserDetail';
 
 import CircleImage from './CircleImage/CircleImage';
@@ -10,7 +9,7 @@ type HeaderProps = Pick<IuserDetail, 'name' | 'job' | 'imageUrl'>;
 export default function Header({ name, job, imageUrl }: HeaderProps) {
   return (
     <S.Container>
-      <CircleImage imageUrl={imageUrl} />
+      <CircleImage imageUrl={imageUrl} name={name} />
       <Headline name={name} job={job} />
     </S.Container>
   );

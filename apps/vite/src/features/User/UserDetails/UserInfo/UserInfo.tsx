@@ -19,8 +19,16 @@ export default function UserInfo({ user }: UserInfoProps) {
       </S.Heading>
       <S.List>
         <S.ListItem>
-          <S.ListItemKey>Name</S.ListItemKey>
-          <S.ListItemValue>{user.name}</S.ListItemValue>
+          {Object.keys(user).map((key) => (
+            <S.ListItemKey key={key}>{key}</S.ListItemKey>
+          ))}
+        </S.ListItem>
+        <S.ListItem>
+          {Object.keys(user).map((key) => (
+            <S.ListItemValue key={key}>
+              {user[key as keyof IuserDetail]}
+            </S.ListItemValue>
+          ))}
         </S.ListItem>
       </S.List>
     </S.Container>
