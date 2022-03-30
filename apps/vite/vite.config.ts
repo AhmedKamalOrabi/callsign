@@ -7,7 +7,7 @@ import { ViteWebfontDownload as webfontPlugin } from 'vite-plugin-webfont-dl';
 // ? https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
-    reactPlugin({}),
+    reactPlugin(),
     webfontPlugin(['https://www.google.com/search?q=google%20fonts%20roboto']),
   ],
   resolve: {
