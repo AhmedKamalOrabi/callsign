@@ -6,5 +6,6 @@
       "@/*": ["src/*"]
     },
     "types": ["vite/client"]
-  }
+  },
+  "exclude": ["vite.config.ts"]
 }
