@@ -29,21 +29,6 @@ jobs:
       - uses: ./.github/actions/setup
       - name: Build
         run: pnpm run build
-      - uses: actions/upload-artifact@v3
-        with:
-          name: build
-          path: apps/*/dist
-          if-no-files-found: error
-          retention-days: 1
-
-  deploy:
-    needs:
-      - build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: npm install
-      - run: npm run build
       - uses: shinyinc/action-aws-cli@v1.2
       - run: aws s3 sync apps/*/dist s3://${{ secrets.AWS_S3_BUCKET_NAME }}
         env:
