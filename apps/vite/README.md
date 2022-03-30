@@ -49,15 +49,12 @@ pnpm --filter vite typecheck
 ## Tools
 
 - [Format JS](https://formatjs.io)
-- [Headless UI](https://headlessui.dev)
 - [Heroicons](https://heroicons.com)
 - [Jotai](https://jotai.pmnd.rs)
 - [Mock Service Worker](https://mswjs.io)
-- [React Helmet](https://github.com/nfl/react-helmet)
 - [React Router](https://reactrouter.com)
 - [React](https://reactjs.org)
 - [Sentry](https://sentry.io)
-- [Tailwind CSS](https://tailwindcss.com)
 - [Testing Library](https://testing-library.com)
 - [Vite](https://vitejs.dev)
 - [Vitest](https://vitest.dev)

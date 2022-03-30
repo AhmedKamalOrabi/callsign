@@ -1,8 +1,10 @@
 # callsign portal
 
-This monorepo callsign allows you to start immediately with a [React](https://reactjs.org) ([TypeScript](https://www.typescriptlang.org)) single-page application, but it can also be used for any other type of web app.
+This monorepo callsign
 
-The callsign takes away the work of having to assemble and configure all the tools for professional development yourself.
+Must you have pnpm installed in your machine check this https://pnpm.io/installation
+
+visit the deployed version https://mfe-platform.s3.us-east-2.amazonaws.com/index.html
 
 ## Getting Started
 
@@ -11,6 +13,12 @@ The callsign takes away the work of having to assemble and configure all the too
 ```sh
 pnpm install
 pnpm dev
+```
+
+to run the vite app
+
+```pnpm run dev --filter vite
+
 ```
 
 :rocket: Now you can get up and running with your ideas!
