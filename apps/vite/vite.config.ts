@@ -9,7 +9,7 @@ export default defineConfig({
   plugins: [
     react({ jsxRuntime: 'classic' }),
     ViteWebfontDownload([
-      'https://www.google.com/search?q=google%20fonts%20roboto',
+      'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap',
     ]),
   ],
   resolve: {
