@@ -1,10 +1,9 @@
 export type IuserDetail = {
-  name: string;
-  job: string;
-  imageUrl: string;
   email: string;
-  phoneNumber: string;
-  group: string;
-  location: string;
-  lastactive: string;
+  id: number;
+  name: string;
+  phone: string;
+  username: string;
+  website: string;
+  imageUrl: string;
 };

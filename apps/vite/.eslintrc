@@ -22,5 +22,5 @@
       }
     ]
   },
-  "ignorePatterns": "vite.config.ts"
+  "ignorePatterns": ["vite.config.ts", "http-service.ts"]
 }

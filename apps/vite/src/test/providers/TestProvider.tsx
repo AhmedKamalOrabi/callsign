@@ -1,3 +1,4 @@
+import { QueryClient, QueryClientProvider } from 'react-query';
 import { MemoryRouter } from 'react-router-dom';
 
 import IntlProvider from '@/contexts/intl';
@@ -8,12 +9,16 @@ type TestProviderProps = {
   children: React.ReactNode;
 };
 
+const queryClient = new QueryClient();
+
 export default function TestProvider({ children }: TestProviderProps) {
   return (
-    <StoreProvider values={[[localeAtom, 'en']]}>
-      <IntlProvider>
-        <MemoryRouter>{children}</MemoryRouter>
-      </IntlProvider>
-    </StoreProvider>
+    <QueryClientProvider client={queryClient}>
+      <StoreProvider values={[[localeAtom, 'en']]}>
+        <IntlProvider>
+          <MemoryRouter>{children}</MemoryRouter>
+        </IntlProvider>
+      </StoreProvider>
+    </QueryClientProvider>
   );
 }

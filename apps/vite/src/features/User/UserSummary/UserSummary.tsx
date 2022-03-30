@@ -2,12 +2,12 @@ import { Checkbox, StopPropogation } from '@callsign/ui';
 
 import type { IuserDetail } from '@/types/IuserDetail';
 
-type UserSummaryProps = Pick<IuserDetail, 'name' | 'group' | 'lastactive'>;
+type UserSummaryProps = Pick<IuserDetail, 'name' | 'username' | 'email'>;
 
 export default function UserSummary({
   name,
-  group,
-  lastactive,
+  username,
+  email,
 }: UserSummaryProps) {
   return (
     <>
@@ -15,8 +15,8 @@ export default function UserSummary({
         <Checkbox />
       </StopPropogation>
       <div>{name}</div>
-      <div>{group}</div>
-      <div>{lastactive}</div>
+      <div>{username}</div>
+      <div>{email}</div>
     </>
   );
 }

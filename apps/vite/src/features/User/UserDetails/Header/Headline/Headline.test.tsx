@@ -5,15 +5,15 @@ import type { IuserDetail } from '@/types/IuserDetail';
 
 import Headline from './Headline';
 
-type User = Pick<IuserDetail, 'name' | 'job'>;
+type User = Pick<IuserDetail, 'name' | 'website'>;
 
 it('should display Headline', () => {
   const user: User = {
     name: 'Ahmed',
-    job: 'Admin',
+    website: 'facebook.com',
   };
 
-  mount(<Headline name={user.name} job={user.job} />);
+  mount(<Headline name={user.name} website={user.website} />);
 
   for (const key of Object.keys(user)) {
     expect(screen.getByText(user[key as keyof User])).toBeDefined();

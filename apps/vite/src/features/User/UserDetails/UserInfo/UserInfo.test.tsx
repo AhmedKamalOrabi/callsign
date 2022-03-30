@@ -5,16 +5,17 @@ import type { IuserDetail } from '@/types/IuserDetail';
 
 import UserInfo from './UserInfo';
 
+const imageUrl = 'https://www.w3schools.com/w3css/img_avatar4.png';
+
 it('should display UserInfo', () => {
   const user: IuserDetail = {
-    name: 'Damon Hill',
-    email: 'damon.hill@a2finance.com',
-    phoneNumber: '+44 782 280 0924',
-    group: 'Approver',
-    lastactive: '23/01/2018T16:46:01Z',
-    imageUrl: 'https://www.w3schools.com/howto/img_avatar.png',
-    job: 'Developer',
-    location: 'Cairo',
+    id: 1,
+    name: 'Leanne Graham',
+    username: 'Bret',
+    email: 'Sincere@april.biz',
+    phone: '1-770-736-8031 x56442',
+    website: 'hildegard.org',
+    imageUrl,
   };
 
   mount(<UserInfo user={user} />);
