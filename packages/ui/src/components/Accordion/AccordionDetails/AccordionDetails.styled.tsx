@@ -9,6 +9,9 @@ const Container = styled.div<ContainerProps>`
   height: auto;
   opacity: ${({ isExpand }) => (isExpand ? 1 : 0)};
   max-height: ${({ isExpand }) => (isExpand ? 1 : 0)};
+  & > * {
+    margin: 0px;
+  }
 `;
 
 export { Container };

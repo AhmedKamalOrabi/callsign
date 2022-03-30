@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.button`
+const Container = styled.div`
   background: transparent;
   border: none;
 `;

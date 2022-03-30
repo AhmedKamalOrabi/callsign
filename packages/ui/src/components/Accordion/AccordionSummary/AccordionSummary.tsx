@@ -31,10 +31,12 @@ export const AccordionSummary: React.VFC<AccordionSummaryProps> = ({
       className={className}
       onClick={toggleExpand}
     >
-      {children}
-      <S.IconWrapper isExpand={isExpand}>
-        {expandIcon ? expandIcon : <FaChevronDown />}
-      </S.IconWrapper>
+      <S.Wrapper>
+        {children}
+        <S.IconWrapper isExpand={isExpand}>
+          {expandIcon ? expandIcon : <FaChevronDown />}
+        </S.IconWrapper>
+      </S.Wrapper>
     </S.Container>
   );
 };

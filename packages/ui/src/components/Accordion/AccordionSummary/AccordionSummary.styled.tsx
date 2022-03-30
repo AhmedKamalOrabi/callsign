@@ -1,19 +1,23 @@
 import styled from 'styled-components';
 
 const Container = styled.button`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: block;
   padding: 0px 16px;
   min-height: 48px;
   border: none;
-  background: transparent;
+  background: none;
   width: 100%;
   box-sizing: border-box;
   &:hover {
     background: #ccc;
     cursor: pointer;
   }
+`;
+
+const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 type IconWrapperProps = {
@@ -25,4 +29,4 @@ const IconWrapper = styled.span<IconWrapperProps>`
     isExpand ? 'rotate(180deg)' : 'rotate(0deg)'};
 `;
 
-export { Container, IconWrapper };
+export { Container, Wrapper, IconWrapper };
