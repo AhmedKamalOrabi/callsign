@@ -21,5 +21,6 @@
         ]
       }
     ]
-  }
+  },
+  "ignorePatterns": "vite.config.ts"
 }
