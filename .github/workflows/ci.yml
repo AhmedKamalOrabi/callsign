@@ -17,7 +17,7 @@ jobs:
       - name: Lint
         run: pnpm run lint
       - name: Test Coverage
-        run: pnpm run test:coverage
+        run: pnpm run test:coverage --filter vite
 
   build:
     if: ${{ github.event_name == 'push' && contains('refs/heads/main', github.ref) }}
